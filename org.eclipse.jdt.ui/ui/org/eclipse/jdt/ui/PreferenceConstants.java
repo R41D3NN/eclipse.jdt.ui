@@ -3291,6 +3291,66 @@ public class PreferenceConstants {
 	public static final String EDITOR_FOLDING_HEADERS= "editor_folding_default_headers"; //$NON-NLS-1$
 
 	/**
+	 * A named preference that stores the value for try/catch/finally folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_TRYS= "editor_folding_default_trys"; //$NON-NLS-1$
+
+	/**
+	 * A named preference that stores the value for conditional folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_CONDITIONALS= "editor_folding_default_conditionals"; //$NON-NLS-1$
+
+	/**
+	 * A named preference that stores the value for switch folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_SWITCHES= "editor_folding_default_switches"; //$NON-NLS-1$
+
+	/**
+	 * A named preference that stores the value for for/while/do-while folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_LOOPS= "editor_folding_default_loops"; //$NON-NLS-1$
+
+	/**
+	 * A named preference that stores the value for synchronized folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_SYNCHRONIZEDS= "editor_folding_default_synchronizeds"; //$NON-NLS-1$
+
+	/**
+	 * A named preference that stores the value for unnamed folding for the default folding provider.
+	 * <p>
+	 * Value is of type <code>Boolean</code>.
+	 * </p>
+	 *
+	 * @since 3.9
+	 */
+	public static final String EDITOR_FOLDING_UNNAMEDS= "editor_folding_default_unnameds"; //$NON-NLS-1$
+
+	/**
 	 * A named preference that holds the methods or types whose methods are by default expanded with
 	 * constructors in the Call Hierarchy.
 	 * <p>
